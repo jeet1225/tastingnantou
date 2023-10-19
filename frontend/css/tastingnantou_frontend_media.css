@@ -53,15 +53,15 @@
 }
 @media screen and (max-width:1500px){
 .kv_p1{
-	background: url(../img/kv_m.png) no-repeat center #c69c6d;
+	background: url(../img/kv_m.jpg) no-repeat center #c69c6d;
 	background-size: cover;
 }
 .kv_p2{
-	background: url(../img/kv_m.png) no-repeat center #c69c6d;
+	background: url(../img/kv_m.jpg) no-repeat center #c69c6d;
 	background-size: cover;
 }
 .kv_p3{
-	background: url(../img/kv_m.png) no-repeat center #c69c6d;
+	background: url(../img/kv_m.jpg) no-repeat center #c69c6d;
 	background-size: cover;
 }
 }
