@@ -35,7 +35,11 @@ html{
 	background: #D5E4E3;
 	border-right: 10px solid #77BEDF;
 }
-.hide,.toggle,.f_m,.f_m5a,.f_m6b{
+html.no_br,body.no_br{
+	border: none;
+	width:100%;
+}
+.hide,.toggle,.f_m,.f_m5a,.f_m6b,.m_logo{
 	display: none;
 }
 .be_login{

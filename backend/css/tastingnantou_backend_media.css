@@ -39,6 +39,15 @@
 .class_sele > div.class_sele_calendar input,.class_sele.company2 > div.class_sele_calendar input,.class_sele.assessment > div.class_sele_calendar input{
 	width: 26%;
 }
+.be_login{
+	background: url(../img/kv.jpg) no-repeat center top #eef9ff;
+	height: 70vh;
+	padding-top: 30vh;
+}
+.login_form {
+    margin-left: calc(50% - 300px);
+}
+
 }
 @media screen and (max-width:1610px){
 .be_kv{
@@ -169,7 +178,7 @@ html{
 }
 @media screen and (max-width:1100px){
 .login_form {
-	width: 90%;
+	width: calc(90% - 100px);
 	margin: 0 auto;
 }
 .login_form div > span {
@@ -195,12 +204,9 @@ html{
 	width: 100%;
 	height: 385px;
 }
-.be_login{
-	display: block;
-	width: 100%;
-	height: calc(94vh - 385px);
-	margin: 0;
-	padding-top: 6vh;
+.login_form {
+	height: 400px;
+	margin-top: 15vh;
 }
 h1{
 	font-size: 40px;
@@ -284,11 +290,37 @@ h1{
 	width: calc(96% - 40px);
 	left: 2%;
 }
+h2 {
+    background: url(../img/h2_bg.png) no-repeat right top;
+	background-size: 180px;
+    background-position: 98% 120%;
+}
 }
 @media screen and (max-width:630px){
-.f_m6{display: block;}
+.f_m6b{display: block;}
 .f_m6a{
 	margin-top: 10px;
+}
+.be_login {
+    background: url(../img/kv_m.jpg) no-repeat center top #eef9ff;
+    height: 80vh;
+    padding-top: 20vh;
+}
+.login_form {
+    height: 420px;
+	padding-top: 10px ;
+}
+h1 {
+    font-size: 35px;
+}
+.m_logo{
+	display: block;
+	background: url(../img/logo.png) no-repeat center;
+	background-size: contain;
+	width: 100%;
+	height: 45px;
+	margin: 0 auto;
+	text-align: center;
 }
 }
 @media screen and (max-width:600px){
