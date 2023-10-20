@@ -27,7 +27,7 @@ body, html{
 	overflow-anchor: none;
 	width:calc(100% - 10px);
 	height: auto;
-	color: #695744;
+	color: #333;
 	background: url(../img/bg.jpg);
 }
 html{
@@ -58,7 +58,7 @@ html{
 	grid-area: footer;
 	padding-right: 40px;
 	font-size: 14px;
-	color: #93918F;
+	color: #56B2A5;
 }
 .grid-container {
 	display: grid;
@@ -175,15 +175,15 @@ ul.sub li{
 	border-radius: 20px;
 }
 .kv_p1{
-	background: url(../img/kv.jpg) no-repeat center #c69c6d;
+	background: url(../img/kv.jpg) no-repeat center #D5E4E3;
 	background-size: cover;
 }
 .kv_p2{
-	background: url(../img/kv.jpg) no-repeat center #c69c6d;
+	background: url(../img/kv.jpg) no-repeat center #D5E4E3;
 	background-size: cover;
 }
 .kv_p3{
-	background: url(../img/kv.jpg) no-repeat center #c69c6d;
+	background: url(../img/kv.jpg) no-repeat center #D5E4E3;
 	background-size: cover;
 }
 .arr{
@@ -306,7 +306,6 @@ h2 img{
 }
 .footer_left{
 	float: left;
-	color: #56B2A5;
 }
 .footer_left a{
 	color: #56B2A5;
@@ -318,9 +317,11 @@ h2 img{
 	height: 20px;
 	vertical-align: middle;
 	margin: 0 10px;
+	border-left: 1px solid #93918F;
 }
 .footer_right{
 	float: right;
+	color: #93918F;
 }
 .tab_bg{
 	position: absolute;
@@ -602,5 +603,20 @@ button.clear{
 	width: 490px;
 	height: 328px;
 	margin: 20px auto 0 auto;
+}
+.xdsoft_datetimepicker .xdsoft_datepicker {
+    width: 280px;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td, .xdsoft_datetimepicker .xdsoft_calendar th {
+    font-size: 15px;
+    height: 30px;
+}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box {
+    height: 180px;
+}
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div {
+    font-size: 15px;
+    height: 30px;
+    line-height: 30px;
 }
 

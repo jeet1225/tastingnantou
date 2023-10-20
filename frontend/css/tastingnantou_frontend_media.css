@@ -19,7 +19,7 @@
 .class_but {
 	margin-top: 10px;
     width: 100%;
-    border-top: 1px solid #A66F4B;
+    border-top: 1px solid #93918F;
 	border-left: none;
     padding: 10px 0 0 0 ;
 	text-align: center;
@@ -71,6 +71,12 @@
 }
 }
 @media screen and (max-width:1250px){
+body, html{
+	width:100%;
+}
+html{
+	border-right: none;
+}
 .grid-container {
 	display: block;
 }
@@ -113,11 +119,16 @@
 }
 .left{
 	display: none;
-	position: absolute;
+	position: fixed;
 	top: 100px;
-	width: calc(100% - 60px);
+	width: calc(100% - 70px);
 	border-radius: 0;
 	z-index: 200;
+	height: 100vh;
+	padding: 0 30px;
+}
+.kv {
+	margin-top: 120px;
 }
 .class_sele > div {
 	width: 26%;
@@ -157,7 +168,7 @@
 .logo {
 	font-size: 22px;
 	line-height: 2.3;
-	padding-left: 55px;
+	padding-left: 170px;
 }
 .tab > div {
     width: 30%;
@@ -168,6 +179,18 @@
 }
 .f_m{
 	display: none;
+}
+h2{
+	background-size: 250px;
+	background-position: 97% -400%;
+	width: 100%;
+	height: 50px;
+	font-size: 24px;
+	font-weight: 500;
+	padding-top: 60px;
+	color: #127C67;
+	margin-top: -30px;
+	z-index: 11;
 }
 }
 @media screen and (max-width:600px){
@@ -188,6 +211,14 @@
 }
 .footer {
     padding: 0;
+}
+.logo{
+	background: url(../img/logo.png) no-repeat left center;
+	background-size: contain;
+	height: 40px;
+	line-height: 1.5;
+	padding-left: 160px;
+	margin-left: 10px;
 }
 .main {
     width: calc(100% - 40px);
