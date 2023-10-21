@@ -528,6 +528,9 @@ button.clear2{
 	background: #31AC76;
 	margin-right: 10px;
 }
+.class_list table button.blue{
+	background: #57B9E2;
+}
 .class_list table a{
 	color: #104D71;
 	font-weight: 500;
