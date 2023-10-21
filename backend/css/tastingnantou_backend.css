@@ -503,7 +503,7 @@ button.clear2{
 }
 .class_list table button{
 	border-radius: 10px;
-	background: #E19562;
+	background: #31AC76;
 	color: #fff;
 	font-size: 16px;
 	padding: 5px 20px;
@@ -511,7 +511,7 @@ button.clear2{
 	transition: 0.3s;
 }
 .class_list table button.org{
-	background: #F5A703;
+	background: #E19562;
 	margin-left: 10px;
 }
 .class_list table button.red_b{
