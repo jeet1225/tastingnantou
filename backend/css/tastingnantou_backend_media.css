@@ -302,16 +302,16 @@ h2 {
 	margin-top: 10px;
 }
 .be_login {
-    background: url(../img/kv_m.jpg) no-repeat center top #eef9ff;
+    background: url(../img/kv_m.jpg) no-repeat center top #e0f1f9;
     height: 80vh;
     padding-top: 20vh;
 }
 .login_form {
     height: 420px;
-	padding-top: 10px ;
+	padding: 10px 40px 40px 40px;
 }
 h1 {
-    font-size: 35px;
+    font-size: 32px;
 }
 .m_logo{
 	display: block;
